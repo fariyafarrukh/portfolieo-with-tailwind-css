@@ -1,0 +1,66 @@
+/* Container styles */
+.project-container {
+    padding-top: 8rem; /* Matches pt-32 */
+  }
+  
+  /* Grid layout */
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem; /* Matches gap-10 */
+    place-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .project-grid {
+      grid-template-columns: repeat(2, 1fr); /* Matches md:grid-cols-2 */
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .project-grid {
+      grid-template-columns: repeat(3, 1fr); /* Matches lg:grid-cols-3 */
+    }
+  }
+  
+  /* Project card */
+  .project-card {
+    background-color: #fff;
+    border: 1px solid #e5e7eb; /* Light border */
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px; /* Limit card width */
+    text-align: center;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .project-title {
+    font-size: 1.5rem; /* Matches text-2xl */
+    font-weight: 600; /* Matches font-semibold */
+  }
+  
+  .project-desc {
+    color: #4b5563; /* Matches text-gray-600 */
+    margin-bottom: 1rem;
+  }
+  
+  .project-tags {
+    display: flex;
+    gap: 0.5rem; /* Matches gap-2 */
+    justify-content: center;
+  }
+  
+  .badge {
+    background-color: #f3f4f6;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+  

@@ -1,0 +1,53 @@
+/* Base styles */
+.navbar-container {
+    padding-top: 2rem; /* Matches pt-8 */
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem; /* Matches text-xl */
+    font-weight: 500; /* Matches font-medium */
+  }
+  
+  /* Menu styling */
+  .navbar-menu {
+    display: flex;
+    gap: 2.5rem; /* Matches gap-10 */
+    list-style: none;
+  }
+  
+  .menu-link a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Large screen adjustments */
+  @media screen and (min-width: 1024px) {
+    .navbar-menu {
+      gap: 4rem; /* Matches lg:gap-16 */
+    }
+  }
+  
+  /* Hide menu on smaller screens */
+  @media screen and (max-width: 767px) {
+    .navbar-menu {
+      display: none;
+    }
+  }
+  
+  /* Menu icon visible only on small screens */
+  .menu-icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .menu-icon {
+      display: block;
+    }
+  }
+  

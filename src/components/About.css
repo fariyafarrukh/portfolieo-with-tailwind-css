@@ -1,0 +1,20 @@
+/* Base styles */
+.about-container {
+    padding-top: 8rem; /* Matches pt-32 */
+  }
+  
+  .about-title {
+    font-size: 2.25rem; /* Matches text-4xl */
+  }
+  
+  @media screen and (min-width: 768px) {
+    .about-title {
+      font-size: 3rem; /* Matches md:text-5xl */
+    }
+  }
+  
+  .about-description {
+    color: #6b7280; /* Matches text-gray-500 */
+    padding-top: 1rem; /* Matches pt-4 */
+  }
+  

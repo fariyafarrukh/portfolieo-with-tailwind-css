@@ -1,0 +1,13 @@
+/* Heading component styles */
+.heading-container {
+    text-align: center;
+    font-size: 2.25rem; /* Matches text-4xl */
+    padding-bottom: 2rem; /* Matches pb-8 */
+  }
+  
+  .heading-title {
+    display: inline-block;
+    padding-bottom: 0.5rem; /* Matches pb-2 */
+    border-bottom: 4px solid #000; /* Matches border-b-4 */
+  }
+  

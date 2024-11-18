@@ -1,0 +1,34 @@
+/* Container styles */
+.skills-container {
+    padding-top: 8rem; /* Matches pt-32 */
+  }
+  
+  /* Grid Layout */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem; /* Matches gap-20 */
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr); /* Matches md:grid-cols-2 */
+    }
+  }
+  
+  /* Text Styles */
+  .skills-text {
+    text-align: left;
+  }
+  
+  .skills-heading {
+    font-size: 2.25rem; /* Matches text-4xl */
+    font-weight: 600; /* Matches font-bold */
+  }
+  
+  .skills-description {
+    color: #6b7280; /* Matches text-gray-500 */
+    padding-top: 0.5rem;
+  }
+  

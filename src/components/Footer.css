@@ -1,0 +1,9 @@
+/* Footer styles */
+.footer {
+    margin-top: 4rem; /* Matches mt-16 */
+    padding: 1.5rem 0; /* Matches py-6 */
+    text-align: center;
+    background-color: #ff6b35; /* Replace bg-accent with your preferred color */
+    color: white;
+  }
+  

@@ -1,0 +1,45 @@
+/* Base styles */
+.hero {
+    min-height: 100vh;
+    background-image: url('/profile.jpg');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: left 100px top 100px;
+  }
+  
+  .container {
+    display: grid;
+    height: calc(100vh - 60px);
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .lg-hidden {
+    display: none;
+  }
+  
+  .hero-text {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-text div {
+    font-size: 80px;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .hero-text {
+      font-size: 100px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .lg-hidden {
+      display: block;
+    }
+  }
+  
