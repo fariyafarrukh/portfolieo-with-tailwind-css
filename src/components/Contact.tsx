@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="contact-info">
           <h2 className="contact-title">CLICK IN</h2>
           <p className="contact-description"> 
-            The "Contact Me" page is your gateway to connect and collaborate. Whether you have questions, ideas, or simply want to say hello, feel free to reach out! Every message here isn’t just a notification—it’s a chance to spark new ideas, explore fresh perspectives, and build meaningful connections. Let’s start the conversation!
+            The &quot;Contact Me &quot; page is your gateway to connect and collaborate. Whether you have questions &quot; ideas &quot; or simply want to say &quot;hello feel free to reach out! Every message here isn’t just a notification—it’s a chance to spark new ideas, explore fresh perspectives, and build meaningful connections. Lets start the conversation!
           </p>
           <div className="contact-item">
             <IoMailUnreadOutline size={30}/>
@@ -24,17 +24,17 @@ const Contact = () => {
         <div className="contact-form">
           <div className="form-group">
             <label htmlFor="name">Name</label>
-            <input type="text" className="form-input" id="name"/>
+            <input type="text" className="form-input" id="name" name="name"/>
           </div>
           <div className="form-group">
             <label htmlFor="email">Email</label>
-            <input type="text" className="form-input" id="email"/>
+            <input type="text" className="form-input" id="email" name="email"/>
           </div>
           <div className="form-group">
             <label htmlFor="msg">Message</label>
-            <textarea className="form-textarea" id="msg" rows={8}></textarea>
+            <textarea className="form-textarea" id="msg" name="msg" rows={8}></textarea>
           </div>
-          <button className="send-button">Send</button>
+          <button type="submit" className="send-button">Send</button>
         </div>
       </div>
     </div>

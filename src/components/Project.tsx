@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from './Heading';
 import './Project.css'; // Import the custom CSS file
+import Image from 'next/image';
 
 const data = {
   id: 1,
@@ -16,7 +17,13 @@ const Project = () => {
       <Heading title="My Project" />
       <div className="project-grid">
         <div key={data.id} className="project-card">
-          <img src={data.img} alt={data.title} className="project-image" />
+          <Image 
+          src={data.img} 
+          alt={data.title} 
+          className="project-image"
+          width={400} 
+            height={300} 
+             />
           <h3 className="project-title">{data.title}</h3>
           <p className="project-desc">{data.desc}</p>
           <div className="project-tags">

@@ -5,10 +5,10 @@ import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Project from "@/components/Project";
 import Skills from "@/components/Skills";
+import Card from "@/components/Card";
 import AOS from 'aos'
 import "aos/dist/aos.css"
 import { useEffect } from "react";
-import Card from "@/components/Card";
 
 
 export default function Home() {

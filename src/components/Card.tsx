@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css'; // Import the custom CSS file
+import Image from 'next/image';
 
 type CardProps = {
   title: string;
@@ -11,7 +12,12 @@ type CardProps = {
 const Card: React.FC<CardProps> = ({ title, desc, img, tags }) => {
   return (
     <div className="card">
-      <img src={img} alt={title} className="card-image" />
+      <Image
+      src={img}
+       alt={title}
+        className="card-image" />
+        width={300} 
+        height={200} 
       <h3 className="card-title">{title}</h3>
       <p className="card-desc">{desc}</p>
       <div className="card-tags">

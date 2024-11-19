@@ -8,9 +8,9 @@ const Skills = () => {
         <div className="skills-text">
           <h2 className="skills-heading">I focus on enhancing my skills</h2>
           <p className="skills-description">
-            "I have a strong foundation in HTML and CSS, enabling me to build responsive, user-friendly websites.
-            I am also proficient in using Microsoft tools like Word, Excel, and PowerPoint to create detailed documents,
-            analyze data, and deliver impactful presentations."
+          &quot;I have a strong foundation in HTML and CSS &quot; enabling me to build responsive, user-friendly websites.
+            I am also proficient in using Microsoft tools like Word &quot; Excel &quot; and PowerPoint to create detailed documents &quot;
+            analyze data &quot; and deliver impactful presentations.&quot;
           </p>
         </div>
       </div>
